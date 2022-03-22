@@ -1,0 +1,88 @@
+using System;
+
+namespace ConsoleApp3
+{
+    class Program
+    {
+        static void Main(string[] args)
+        {
+            string text = "Pizza Mozzarella";
+            findIndex(text, 5, 9);
+        }
+        static void findIndex(string text)
+        {
+            string find = "ll";
+            int count = 0;
+            for (int i = 0; i < text.Length; i++)
+            {
+                if (text[i] == find[0])
+                {
+                    for (int j = 1; j < find.Length; j++)
+                    {
+                        if (text[j + i] == find[j])
+                        {
+                            count++;
+                        }
+                        if (count == find.Length - 1)
+                        {
+                            Console.WriteLine(i);
+                            return;
+                        }
+                    }
+                }
+                count = 0;
+            }
+            Console.WriteLine("Not Found!!!!!");
+        }
+        static void findIndex(string text, int fromindex)
+        {
+            string find = "Pi";
+            int count = 0;
+            for (int i = fromindex; i < text.Length; i++)
+            {
+                if (text[i] == find[0])
+                {
+                    for (int j = 1; j < find.Length; j++)
+                    {
+                        if (text[j + i] == find[j])
+                        {
+                            count++;
+                        }
+                        if (count == find.Length - 1)
+                        {
+                            Console.WriteLine(i);
+                            return;
+                        }
+                    }
+                }
+                count = 0;
+            }
+            Console.WriteLine("Not Found!!!!!");
+        }
+        static void findIndex(string text, int fromindex, int thisindex)
+        {
+            string find = "Mozzarella";
+            int count = 0;
+            for (int i = fromindex; i < fromindex && find.Length <= thisindex + thisindex; i++)
+            {
+                if (text[i] == find[0] )
+                {
+                    for (int j = 1; j < find.Length; j++)
+                    {
+                        if (text[j + i] == find[j])
+                        {
+                            count++;
+                        }
+                        if (count == find.Length - 1)
+                        {
+                            Console.WriteLine(i);
+                            return;
+                        }
+                    }
+                }
+                count = 0;
+            }
+            Console.WriteLine("Not Found!!!!!");
+        }
+    }
+}
