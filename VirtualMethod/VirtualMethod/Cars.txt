@@ -1,0 +1,36 @@
+using System;
+using System.Collections.Generic;
+using System.Text;
+
+namespace virtualmethod
+{
+    class Car
+    {
+        public string Brand;
+        public string Model;
+        public string Color;
+        public double MaxSpeed;
+
+        public Car()
+        {
+            Console.WriteLine("Car Created!");
+        }
+
+        public Car(string brand, string model):this()
+        {
+            Brand = brand;
+            Model = model;
+        }
+        public Car(string brand, string model,string color, double maxspeed):this(brand,model)
+        {
+            Color = color;
+            MaxSpeed = maxspeed;
+        }
+        public virtual void Info()
+        {
+            Console.WriteLine($"Brand: {Brand}\nModel; {Model}\nColor: {Color}\nMax Speed: {MaxSpeed}");
+
+
+        }
+    }
+}

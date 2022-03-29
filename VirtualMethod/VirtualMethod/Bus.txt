@@ -1,0 +1,23 @@
+using System;
+using System.Collections.Generic;
+using System.Text;
+
+namespace virtualmethod
+{
+    class Bus : Car
+
+    {
+        public int PassangerCount;
+
+        public Bus(string brand, string model, string color, double maxspeed,int passangercount):
+            base(brand,model,color,maxspeed)
+        {
+            PassangerCount = passangercount;
+        }
+        public override void Info()
+        {
+            Console.WriteLine($"Brand: {Brand}\nModel: {Model}\nColor: {Color}\nMax Speed: {MaxSpeed}\nPassanger Count: {PassangerCount}");
+        }
+    }
+    
+}

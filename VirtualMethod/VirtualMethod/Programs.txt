@@ -1,0 +1,16 @@
+using System;
+
+namespace virtualmethod
+{
+    class Program
+    {
+        static void Main(string[] args)
+        {
+            Car bus = new Bus( "Amogus","SUS","Red", 160,10);
+            bus.Info();
+            Car sport = new Car("Toyota","SUPRRAAAAAAAAAAAAA","Black",250);
+            sport.Info();
+
+        }
+    }
+}
