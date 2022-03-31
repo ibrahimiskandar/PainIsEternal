@@ -1,0 +1,14 @@
+C:\Users\Ibrahim\source\repos\NewTask\NewTask\bin\Debug\netcoreapp3.1\NewTask.exe
+C:\Users\Ibrahim\source\repos\NewTask\NewTask\bin\Debug\netcoreapp3.1\NewTask.deps.json
+C:\Users\Ibrahim\source\repos\NewTask\NewTask\bin\Debug\netcoreapp3.1\NewTask.runtimeconfig.json
+C:\Users\Ibrahim\source\repos\NewTask\NewTask\bin\Debug\netcoreapp3.1\NewTask.runtimeconfig.dev.json
+C:\Users\Ibrahim\source\repos\NewTask\NewTask\bin\Debug\netcoreapp3.1\NewTask.dll
+C:\Users\Ibrahim\source\repos\NewTask\NewTask\bin\Debug\netcoreapp3.1\NewTask.pdb
+C:\Users\Ibrahim\source\repos\NewTask\NewTask\obj\Debug\netcoreapp3.1\NewTask.csproj.AssemblyReference.cache
+C:\Users\Ibrahim\source\repos\NewTask\NewTask\obj\Debug\netcoreapp3.1\NewTask.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\Ibrahim\source\repos\NewTask\NewTask\obj\Debug\netcoreapp3.1\NewTask.AssemblyInfoInputs.cache
+C:\Users\Ibrahim\source\repos\NewTask\NewTask\obj\Debug\netcoreapp3.1\NewTask.AssemblyInfo.cs
+C:\Users\Ibrahim\source\repos\NewTask\NewTask\obj\Debug\netcoreapp3.1\NewTask.csproj.CoreCompileInputs.cache
+C:\Users\Ibrahim\source\repos\NewTask\NewTask\obj\Debug\netcoreapp3.1\NewTask.dll
+C:\Users\Ibrahim\source\repos\NewTask\NewTask\obj\Debug\netcoreapp3.1\NewTask.pdb
+C:\Users\Ibrahim\source\repos\NewTask\NewTask\obj\Debug\netcoreapp3.1\NewTask.genruntimeconfig.cache
