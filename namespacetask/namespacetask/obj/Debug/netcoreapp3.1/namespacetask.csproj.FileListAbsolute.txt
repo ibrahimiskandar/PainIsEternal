@@ -1,0 +1,14 @@
+C:\Users\Ibrahim\source\repos\namespacetask\namespacetask\obj\Debug\netcoreapp3.1\namespacetask.csproj.AssemblyReference.cache
+C:\Users\Ibrahim\source\repos\namespacetask\namespacetask\obj\Debug\netcoreapp3.1\namespacetask.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\Ibrahim\source\repos\namespacetask\namespacetask\obj\Debug\netcoreapp3.1\namespacetask.AssemblyInfoInputs.cache
+C:\Users\Ibrahim\source\repos\namespacetask\namespacetask\obj\Debug\netcoreapp3.1\namespacetask.AssemblyInfo.cs
+C:\Users\Ibrahim\source\repos\namespacetask\namespacetask\obj\Debug\netcoreapp3.1\namespacetask.csproj.CoreCompileInputs.cache
+C:\Users\Ibrahim\source\repos\namespacetask\namespacetask\bin\Debug\netcoreapp3.1\namespacetask.exe
+C:\Users\Ibrahim\source\repos\namespacetask\namespacetask\bin\Debug\netcoreapp3.1\namespacetask.deps.json
+C:\Users\Ibrahim\source\repos\namespacetask\namespacetask\bin\Debug\netcoreapp3.1\namespacetask.runtimeconfig.json
+C:\Users\Ibrahim\source\repos\namespacetask\namespacetask\bin\Debug\netcoreapp3.1\namespacetask.runtimeconfig.dev.json
+C:\Users\Ibrahim\source\repos\namespacetask\namespacetask\bin\Debug\netcoreapp3.1\namespacetask.dll
+C:\Users\Ibrahim\source\repos\namespacetask\namespacetask\bin\Debug\netcoreapp3.1\namespacetask.pdb
+C:\Users\Ibrahim\source\repos\namespacetask\namespacetask\obj\Debug\netcoreapp3.1\namespacetask.dll
+C:\Users\Ibrahim\source\repos\namespacetask\namespacetask\obj\Debug\netcoreapp3.1\namespacetask.pdb
+C:\Users\Ibrahim\source\repos\namespacetask\namespacetask\obj\Debug\netcoreapp3.1\namespacetask.genruntimeconfig.cache
