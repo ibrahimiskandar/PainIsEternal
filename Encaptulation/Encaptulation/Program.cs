@@ -15,15 +15,13 @@ c;)Group-un addStudent() ve RemoveStudent() metodlari yazilmalidir8*/
         static void Main(string[] args)
         {
             Group student = new Group("BP201", 19);
-            student.AddStudent("Eli", "Agayev", "CS");
+            
             student.AddStudent("ibrahim", "iskar", "CS");
             student.AddStudent("ibrahim", "ikandar", "CS");
             student.AddStudent("ibahim", "iskadar", "CS");
-            student.AddStudent("Eli", "Agayev", "CS");
-            student.AddStudent("Eli", "Agayev", "CS");
-            student.AddStudent("Eli", "Agayev", "CS");
+           
 
-            student.RemoveStudent("Eli", "Agayev", "CS");
+            student.RemoveStudent();
             student.GetStudents();
 
         }
