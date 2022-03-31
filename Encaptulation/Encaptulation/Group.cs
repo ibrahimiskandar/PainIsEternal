@@ -20,7 +20,7 @@ namespace Encapsulation
             }
             else
             {
-                Console.WriteLine("peyser bu qeder adami hara yigirsan");
+                Console.WriteLine(" bu qeder adami hara yigirsan");
             }
 
         }
