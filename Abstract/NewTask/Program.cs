@@ -1,4 +1,4 @@
-﻿using System;
+using System;
 
 namespace NewTask
 {
@@ -79,8 +79,9 @@ namespace NewTask
                 {
                     if (item.Price >= min && item.Price <= max)
                     {
-                        Console.WriteLine($"KItabin nomresi: {item.No}\nKitabin adi: {item.Name}\nKitabin qiymeti: {item.Price}\n");
                         count++;
+                        Console.WriteLine($"KItabin nomresi: {item.No}\nKitabin adi: {item.Name}\nKitabin qiymeti: {item.Price}\n");
+                        Console.WriteLine($"bu qiymet araliginda {item.Count} kitabdan {count} sayda kitab var");
                     }
                 }
                 if (count == 0)
@@ -90,9 +91,10 @@ namespace NewTask
             }
             else if (select == 2)
             {
-                Console.WriteLine("Butun kitablar:\n\n");
+                
                 foreach (var item in book)
                 {
+                    Console.WriteLine($"Butun kitablar:\nKitablarin sayi: {item.Count}\n\n");
                     Console.WriteLine($"KItabin nomresi: {item.No}\nKitabin adi: {item.Name}\n");
                 }
             }
