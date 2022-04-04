@@ -1,0 +1,14 @@
+C:\Users\Ibrahim\source\repos\Abstract\Abstract\bin\Debug\netcoreapp3.1\UpDowncasting.exe
+C:\Users\Ibrahim\source\repos\Abstract\Abstract\bin\Debug\netcoreapp3.1\UpDowncasting.deps.json
+C:\Users\Ibrahim\source\repos\Abstract\Abstract\bin\Debug\netcoreapp3.1\UpDowncasting.runtimeconfig.json
+C:\Users\Ibrahim\source\repos\Abstract\Abstract\bin\Debug\netcoreapp3.1\UpDowncasting.runtimeconfig.dev.json
+C:\Users\Ibrahim\source\repos\Abstract\Abstract\bin\Debug\netcoreapp3.1\UpDowncasting.dll
+C:\Users\Ibrahim\source\repos\Abstract\Abstract\bin\Debug\netcoreapp3.1\UpDowncasting.pdb
+C:\Users\Ibrahim\source\repos\Abstract\Abstract\obj\Debug\netcoreapp3.1\UpDowncasting.csproj.AssemblyReference.cache
+C:\Users\Ibrahim\source\repos\Abstract\Abstract\obj\Debug\netcoreapp3.1\UpDowncasting.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\Ibrahim\source\repos\Abstract\Abstract\obj\Debug\netcoreapp3.1\UpDowncasting.AssemblyInfoInputs.cache
+C:\Users\Ibrahim\source\repos\Abstract\Abstract\obj\Debug\netcoreapp3.1\UpDowncasting.AssemblyInfo.cs
+C:\Users\Ibrahim\source\repos\Abstract\Abstract\obj\Debug\netcoreapp3.1\UpDowncasting.csproj.CoreCompileInputs.cache
+C:\Users\Ibrahim\source\repos\Abstract\Abstract\obj\Debug\netcoreapp3.1\UpDowncasting.dll
+C:\Users\Ibrahim\source\repos\Abstract\Abstract\obj\Debug\netcoreapp3.1\UpDowncasting.pdb
+C:\Users\Ibrahim\source\repos\Abstract\Abstract\obj\Debug\netcoreapp3.1\UpDowncasting.genruntimeconfig.cache
