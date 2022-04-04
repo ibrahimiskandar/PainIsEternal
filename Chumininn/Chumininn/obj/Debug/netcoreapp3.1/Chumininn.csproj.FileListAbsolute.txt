@@ -1,0 +1,14 @@
+C:\Users\Ibrahim\source\repos\Chumininn\Chumininn\bin\Debug\netcoreapp3.1\Chumininn.exe
+C:\Users\Ibrahim\source\repos\Chumininn\Chumininn\bin\Debug\netcoreapp3.1\Chumininn.deps.json
+C:\Users\Ibrahim\source\repos\Chumininn\Chumininn\bin\Debug\netcoreapp3.1\Chumininn.runtimeconfig.json
+C:\Users\Ibrahim\source\repos\Chumininn\Chumininn\bin\Debug\netcoreapp3.1\Chumininn.runtimeconfig.dev.json
+C:\Users\Ibrahim\source\repos\Chumininn\Chumininn\bin\Debug\netcoreapp3.1\Chumininn.dll
+C:\Users\Ibrahim\source\repos\Chumininn\Chumininn\bin\Debug\netcoreapp3.1\Chumininn.pdb
+C:\Users\Ibrahim\source\repos\Chumininn\Chumininn\obj\Debug\netcoreapp3.1\Chumininn.csproj.AssemblyReference.cache
+C:\Users\Ibrahim\source\repos\Chumininn\Chumininn\obj\Debug\netcoreapp3.1\Chumininn.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\Ibrahim\source\repos\Chumininn\Chumininn\obj\Debug\netcoreapp3.1\Chumininn.AssemblyInfoInputs.cache
+C:\Users\Ibrahim\source\repos\Chumininn\Chumininn\obj\Debug\netcoreapp3.1\Chumininn.AssemblyInfo.cs
+C:\Users\Ibrahim\source\repos\Chumininn\Chumininn\obj\Debug\netcoreapp3.1\Chumininn.csproj.CoreCompileInputs.cache
+C:\Users\Ibrahim\source\repos\Chumininn\Chumininn\obj\Debug\netcoreapp3.1\Chumininn.dll
+C:\Users\Ibrahim\source\repos\Chumininn\Chumininn\obj\Debug\netcoreapp3.1\Chumininn.pdb
+C:\Users\Ibrahim\source\repos\Chumininn\Chumininn\obj\Debug\netcoreapp3.1\Chumininn.genruntimeconfig.cache
