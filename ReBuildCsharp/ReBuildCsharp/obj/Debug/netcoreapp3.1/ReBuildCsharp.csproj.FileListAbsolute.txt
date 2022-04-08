@@ -1,0 +1,5 @@
+C:\Users\Ibrahim\source\repos\ReBuildCsharp\ReBuildCsharp\obj\Debug\netcoreapp3.1\ReBuildCsharp.csproj.AssemblyReference.cache
+C:\Users\Ibrahim\source\repos\ReBuildCsharp\ReBuildCsharp\obj\Debug\netcoreapp3.1\ReBuildCsharp.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\Ibrahim\source\repos\ReBuildCsharp\ReBuildCsharp\obj\Debug\netcoreapp3.1\ReBuildCsharp.AssemblyInfoInputs.cache
+C:\Users\Ibrahim\source\repos\ReBuildCsharp\ReBuildCsharp\obj\Debug\netcoreapp3.1\ReBuildCsharp.AssemblyInfo.cs
+C:\Users\Ibrahim\source\repos\ReBuildCsharp\ReBuildCsharp\obj\Debug\netcoreapp3.1\ReBuildCsharp.csproj.CoreCompileInputs.cache
