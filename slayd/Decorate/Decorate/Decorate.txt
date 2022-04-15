@@ -1,0 +1,18 @@
+Decorate
+
+Decorator design patternin məqsədi obyektlərə dinamik olaraq xüsusiyyətlər əlavə etməkdir və obyektin özü əlavə edilən xassələrdən xəbərsiz ayrı bir yerdə olmalıdır.
+ Başqa sözlə, kodun müəyyən hissələrində obyektlərə müəyyən xüsusiyyətlər vermək istəyiriksə və bunu obyektin öz sinfindən ayrılmış şəkildə etmək istəyiriksə, Decorator design patternindən istifadə etməliyik.
+
+
+
+
+Dekorator dizayn modelinin ən mühüm xüsusiyyətləri
+
+Əsas obyekt onun decorate olduğunun fərqində deyil. Başqa sözlə, dekoratorla əlavə edilən xüsusiyyətlər əslində onun öz sinfində olan xüsusiyyətlər deyil.
+
+Heç bir dekorativ sinif bir-birindən asılı deyil.
+
+Dekorator sinifləri birləşdirilə və öz aralarında uyğunlaşdırıla bilər.
+
+
+

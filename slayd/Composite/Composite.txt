@@ -1,0 +1,35 @@
+Composite
+
+Composite Design Pattern tək komponentin və müxtəlif komponentlər qrupunun iyerarxik 
+quruluşda eyni tip obyekt kimi istifadə olunmasını, yəni bir-birindən fərqli olan bir 
+qrup obyektin vahid bütöv bir obyekt kimi istifadəsini təmin edir.
+
+Composite Design Patternin vəzifəsi obyektləri ağac strukturunda birləşdirmək və tətbiq 
+boyu hissə-bütöv əlaqəni yenidən təşkil etmək və formalaşdırmaqdırş Bu sinif obyektlərinin 
+bir qrupunun eyni funksiyanı yerinə yetirə bilməsindən, hətta eyni valideyndən əldə edilən digər 
+sinif obyektləri qrupundan asılı olmayaraq, siz obyektlər qrupunun bu funksiyanı tək bir obyekt
+ kimi müəyyən ardıcıllıqla yerinə yetirməsini istəyirsiniz. Belə hallarda istifadə edə biləcəyimiz
+ ən uyğun dizayn nümunəsi Composite Design Patterndir.
+
+
+
+nə zaman istifadə etməli
+
+Qarışıq bir obyekt quruluşumuz və bu obyektlərin birləşməsinə sahib olduğumuz zaman 
+
+Müştəri fərdi obyektlər və obyekt qrupları arasındakı fərqləri görmədən işləmək istədikdə
+
+Bir qrup obyektdəki bütün obyektlər eyni işi ardıcıllıqla yerinə yetirməli olduqda
+
+  və əgər istifadəçi eyni tipli və ya müxtəlif növ obyektlərin kolleksiyasından istifadə etməli 
+olarsa, qarışıqlıq və çaşqınlığın qarşısını almaq üçün Composite Design Patternindən istifadə edə bilər.
+
+
+
+mənfiləri
+
+struktur müəyyən edildikdən sonra, Composite Design Pattern ağacı həddindən artıq ümumi edir.
+
+Xüsusi hallarda ağacın tərkib hissələrini yalnız müəyyən növlərlə məhdudlaşdırmaq çətindir.
+
+Buna görə də, bu cür məhdudiyyəti tətbiq etmək üçün proqram iş vaxtı yoxlamalarına etibar etməlidir
