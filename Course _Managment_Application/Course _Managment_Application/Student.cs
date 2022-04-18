@@ -19,8 +19,8 @@ namespace Course__Managment_Application
 
         public override string ToString()
         {
-            var result = Type ? "zemanetli" : "zemanetsiz";
-            return $"Fullname: {Fullname}\nGroup No: {GroupNo}\nType: {result}";
+            var result = Type ? "Guaranteed" : "Unguaranteed";
+            return $"Fullname: {Fullname}\nGroup No: {GroupNo}\nType: {result}\n--------------------------------------";
         }
     }
 }
