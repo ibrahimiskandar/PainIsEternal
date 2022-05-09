@@ -1,0 +1,132 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+body{
+    
+    background-image: url(./assets/images/c8c11d37774b9ac8afdbeee61de3fcd4.jpg);
+}
+
+@keyframes tour{
+    0% {transform: rotate(0deg); }
+    
+      100% {transform: rotate(-360deg); } }
+
+.mercury{
+    background-color:  rgb(76, 0, 252);
+    border-radius: 50%;
+    width: 10px;
+    height: 10px;
+    position: relative;
+    top: 0px;
+    left: 40px;
+    
+
+}
+.mercuryorbit{
+    position: relative;
+    top: -58px;
+    left: -58px;
+    border:2px solid rgb(76, 0, 252);
+    border-radius: 50%;
+    width: 150px;
+    height: 150px;
+    animation-name: tour;
+    animation-duration:  2s ;
+    animation-iteration-count: infinite;
+    animation-timing-function: linear;
+
+}
+.venus{
+    background-color:  yellow;
+    border-radius: 50%;
+    width: 10px;
+    height: 10px;
+    position: relative;
+    top: 0px;
+    left: 60px;
+    
+
+}
+.venusorbit{
+    position: absolute;
+    top: -83px;
+    left: -83px;
+    border:2px solid yellow;
+    border-radius: 50%;
+    width: 200px;
+    height: 200px;
+    animation-name: tour;
+    animation-duration:  4s ;
+    animation-iteration-count: infinite;
+    animation-timing-function: linear;
+
+}
+
+.earth{
+    background-color:  green;
+    border-radius: 50%;
+    width: 15px;
+    height: 15px;
+    position: relative;
+    top: 0px;
+    left: 75px;
+}
+.earthorbit{
+    position: absolute;
+    top: -105px;
+    left: -105px;
+    border:2px solid green;
+    border-radius: 50%;
+    width: 250px;
+    height: 250px;
+    animation-name: tour;
+    animation-duration:  6s ;
+    animation-iteration-count: infinite;
+    animation-timing-function: linear;
+
+}
+
+.mars{
+    background-color:  red;
+    border-radius: 50%;
+    width: 10px;
+    height: 10px;
+    position: relative;
+    top: 0px;
+    left: 100px;
+    
+
+}
+.marsorbit{
+    position: relative;
+    top: -282px;
+    left: -129px;
+    border:2px solid red;
+    border-radius: 50%;
+    width: 300px;
+    height: 300px;
+    animation-name: tour;
+    animation-duration:  8s ;
+    animation-iteration-count: infinite;
+    animation-timing-function: linear;
+
+}
+
+.sun{
+    margin:400px 900px ;
+    background-color: #faea44;
+    border-radius: 50%;
+    width: 50px;
+    height: 50px;
+
+}
+.suncenter{
+    position: relative;
+    top: 8px;
+    left: 8px;
+    background-color: #f3b30a;
+    border-radius: 50%;
+    width: 35px;
+    height: 35px;
+}
