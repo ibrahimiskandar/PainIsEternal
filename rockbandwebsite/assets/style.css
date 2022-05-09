@@ -1,0 +1,256 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: inherit;
+  font-family: "Lato", sans-serif;
+  
+}
+.mySlides {display: none;}
+
+nav {
+  width: 100%;
+  background-color: black;
+  height: 47px;
+  box-shadow: 0px 8px 16px 0px rgba(0, 0, 0, 0.2);
+  position: fixed;
+  z-index: 10;
+}
+
+.menu ul {
+  display: flex;
+  list-style: none;
+  position: relative;
+  top: 14px;
+  height: 100px;
+}
+
+nav ul li a {
+  text-decoration: none;
+  text-align: center;
+  color: white;
+  padding: 16px 24px;
+  font-size: 15px;
+  border: none;
+}
+
+.fa-caret-down {
+  font-size: 15px;
+}
+
+
+.dropbtn {
+  background-color: #000000;
+  color: white;
+  padding: 16px 22px;
+  font-size: 15px;
+  border: none;
+  height: 45px;
+}
+
+
+.dropdown {
+  position: relative;
+  display: inline-block;
+  top: -45px;
+
+}
+
+
+.dropdown-content {
+  display: none;
+  position: absolute;
+  background-color: #ffffff;
+  min-width: 160px;
+  box-shadow: 0px 8px 16px 0px rgba(0, 0, 0, 0.2);
+  z-index: 1;
+}
+
+
+.dropdown-content a {
+  color: black;
+  padding: 12px 16px;
+  text-decoration: none;
+  display: block;
+}
+
+
+.dropdown-content a:hover {
+  background-color: #ddd;
+}
+
+.dropdown:hover .dropdown-content {
+  box-shadow: 0px 8px 16px 0px rgba(0, 0, 0, 0.2);
+  display: block;
+}
+
+
+.dropdown:hover .dropbtn {
+  cursor: pointer;
+  color: #000000;
+  background-color: #cccccc;
+}
+
+.menu a:hover {
+  color: #000000;
+  box-shadow: 0 2px 5px 0 rgb(0 0 0 / 16%), 0 2px 10px 0 rgb(0 0 0 / 12%);
+  background-color: #cccccc;
+}
+
+.search_bar {
+  position: absolute;
+  background-color: rgb(0, 0, 0);
+  color: #ffffff;
+  padding: 15px 24px;
+  top: -45px;
+  right: 0;
+}
+
+.search_bar:hover {
+  background-color: #f44336;
+}
+
+.fa-magnifying-glass {
+  font-size: 15px;
+}
+
+.home-page img {
+  position: relative;
+  top: 47px;
+  width: 1903px;
+
+}
+
+.home-text{
+  position: relative;
+  top: -55px;
+  text-align: center ;
+  color: rgb(255, 255, 255);
+}
+.home-text h3 {
+  position: relative;
+  font-family: "Segoe UI", Arial, sans-serif;
+  font-size: 24px;
+  bottom: 20px;
+  font-weight: 400;
+  text-size-adjust: 100%;
+}
+
+.home-text p{
+  font-family: Lato, sans-serif;
+  font-size :15px;
+  font-weight: 700;
+}
+
+.bandinfo{
+  position: relative;
+  text-align: center;
+  width: 768px;
+  margin-left: 565px;
+  margin-top: 85px;
+
+}
+
+h2{
+  font-family: "Segoe UI",Arial,sans-serif;
+  font-weight: 400;
+  font-size: 30px;
+  letter-spacing:4px
+}
+
+i{
+  display: block;
+  position: relative;
+  opacity: 0.6;
+  margin-top: 32px;
+}
+
+.bandinfo p{
+  position: relative;
+  margin-top: 30px;
+  width: 768px;
+  font-family: Verdana,sans-serif;
+  font-size: 15px;
+  text-align: justify;
+  display: block;
+  margin-block-start: 1em;
+  margin-block-end: 1em;
+  margin-inline-start: 0px;
+  margin-inline-end: 0px;
+}
+
+.bandmembers{
+  display: flex;
+  margin-left: 565px;
+  text-align: center;
+  margin-top: 50px;
+}
+
+.bandmembers .bandmember {
+  position: relative;
+  margin-left: 100px;
+  left: -40px;
+  
+}
+
+.bandmember img{
+  position: relative;
+  margin-top: 20px;
+  width: 150px ;
+  height: 150px;
+}
+
+.tour{
+  background-color: #000000;
+  width: 1903px;
+  height: 850px;
+  position: relative;
+  margin-top: 100px;
+  text-align: center;
+  color: white;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+.contact{
+  width: 1903px;
+  height: 460px;
+  position: relative;
+  margin-top: 100px;
+  text-align: center;
+  color: rgb(0, 0, 0);
+}
+
+
+
+
+
+
+
+
+
+.photo img{
+  width: 1903px;
+  height: 1070.98;
+  filter: grayscale(50%);
+
+}
+
+
+
+
+
+
+.socialmedia{
+  height: 220px;
+}
