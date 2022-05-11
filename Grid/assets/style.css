@@ -1,0 +1,76 @@
+*  {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+.grid-container-shopthogether {
+    display: grid;
+    width: 1893px;
+    height: 770px;
+    padding: 10px;
+  }
+  
+  .grid-item-background {
+    background-image: url(/assets/images/babycart.jpg);
+    background-repeat: no-repeat;
+    width: 1893px;
+    height: 1080px;
+    
+  }
+  .elements-shoptext{
+    position: relative;
+    font-size: 30px;
+    top: 280px;
+    left: 320px;
+    width:420px; 
+  }
+  .grid-item-text {
+      
+      position: relative;
+    font-size: 30px;
+  }
+  p{
+    font-family: Montserrat, sans-serif;
+    max-width: 420px;
+    line-height: 24px;
+    font-size: 16px;
+    padding-top: 30px;
+
+  }
+
+   h2{
+
+    font-family: 'Prata', serif;
+    font-size: 48px;
+    font-style: normal;
+    font-weight: 400;
+    height: auto;
+    letter-spacing: normal;
+    line-height: 72px;
+  }
+  .grid-item-button {
+    position: relative;
+    font-size: 30px;
+    top: 30px;
+    padding-top: 30px;
+  }
+button{
+    background-color: black;
+    color: white;
+    text-align: center;
+    width: 170px;
+    height: 50px;
+    font-size: 15px;
+    opacity: 0.8;
+}
+ button:hover{
+    cursor: pointer;
+    opacity: 0.65;
+    transition: opacity 0.2s ;
+
+}
+
+.grid-container-explore{
+    
+}
