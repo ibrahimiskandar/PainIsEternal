@@ -1,0 +1,98 @@
+body {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  font-family: "visby cf", Sans-serif;
+  color: rgb(74, 74, 74);
+}
+.question-form {
+  background-color: rgb(244, 245, 248);
+  height: 497px;
+  form {
+    width: 400px;
+    top: 0;
+    padding: 12px;
+    input {
+      height: 50px;
+      border: 0;
+    }
+    input:focus {
+      border: 10px solid rgb(244, 245, 248);
+    }
+    select {
+      width: 100px;
+      color: black;
+      border: none;
+      height: 50px;
+    }
+
+    button {
+      background-color: #fcba00;
+      color: white;
+      font-family: "visby cf", Sans-serif;
+      font-size: 30px;
+      border: none;
+      height: 50px;
+      width: 100%;
+    }
+    .field select {
+      width: 100%;
+    }
+  }
+  .form-words {
+    padding-top: 100px;
+    width: 500px;
+    .haveanyquestion {
+      font-family: "visby cf", Sans-serif;
+      font-size: 50px;
+      font-weight: 300;
+      text-transform: lowercase;
+      line-height: 1.04em;
+      letter-spacing: -1.5px;
+      margin-left: -100px;
+    }
+    .meet {
+      font-family: "visby cf", Sans-serif;
+      font-size: 30px;
+      font-weight: 900;
+      text-transform: lowercase;
+      line-height: 1.04em;
+      letter-spacing: -3.5px;
+    }
+    .text {
+      width: 440px;
+    }
+    .telnumberrow {
+      input {
+        width: 10px;
+      }
+    }
+  }
+}
+#aboutacademy {
+  ul {
+    list-style: none;
+    display: inline;
+  }
+  h2 {
+    font-size: 17px;
+    position: relative;
+    margin-top: 200px;
+  }
+  a {
+    font-family: "visby cf", Sans-serif;
+    font-size: 10x;
+    font-weight: 300;
+    text-transform: lowercase;
+    text-decoration: none;
+    color: rgb(143, 143, 143);
+  }
+}
+
+#location {
+  .location {
+    height: 100px;
+    background-color: rgb(244, 245, 248);
+  }
+  text-align: center;
+}
