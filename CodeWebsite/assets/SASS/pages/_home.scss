@@ -1,0 +1,376 @@
+body {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  font-family: "Roboto Flex", sans-serif;
+  color: rgb(74, 74, 74);
+}
+
+main {
+  position: relative;
+  z-index: 1;
+}
+
+#question-form {
+  .question-form {
+    background-color: rgb(244, 245, 248);
+    height: 497px;
+    display: flex;
+    flex-flow: row wrap;
+
+    .form-texts {
+      margin-top: 100px;
+      width: 500px;
+
+      .haveanyquestion {
+        h2 {
+          color: #4a4a4a;
+          font-size: 55px;
+          font-weight: 300;
+          text-transform: lowercase;
+          letter-spacing: -1.5px;
+          margin-left: -100px;
+        }
+      }
+
+      .meet {
+        margin: -30px -50px;
+
+        h2 {
+          color: #4a4a4a;
+          font-size: 55px;
+          font-weight: 900;
+          text-transform: lowercase;
+          letter-spacing: -1.5px;
+        }
+      }
+
+      .reasontext {
+        position: absolute;
+        width: 25%;
+        max-width: 470px;
+        margin-top: 70px;
+        margin-left: -50px;
+        font-size: 15px;
+        opacity: 0.6;
+      }
+    }
+
+    form {
+      width: 415px;
+      margin: 110px 65px;
+
+      select {
+        color: black;
+        opacity: 0.7;
+        border: 20px solid white;
+        height: 59px;
+        font-size: 14px;
+
+        &:focus {
+          outline: none;
+        }
+      }
+
+      input {
+        border: 20px solid white;
+        height: 60px;
+
+        &:focus {
+          outline: none;
+        }
+      }
+
+      .namerow {
+        display: flex;
+        justify-content: space-between;
+
+        input {
+          width: 48%;
+        }
+      }
+    }
+
+    .telnumberrow {
+      margin-top: 15px;
+      display: flex;
+      justify-content: space-between;
+
+      input {
+        width: 72%;
+      }
+
+      select {
+        width: 24%;
+      }
+    }
+
+    .fieldrow {
+      margin-top: 15px;
+
+      select {
+        width: 100%;
+      }
+    }
+
+    .applyrow {
+      margin-top: 15px;
+      display: block;
+
+      button {
+        background-color: #fcba00;
+        color: white;
+        font-size: 20px;
+        font-weight: 900;
+        border: none;
+        height: 54px;
+        width: 100%;
+
+        &:hover {
+          transition: 0.5s;
+          background: #f09c04;
+        }
+      }
+    }
+  }
+}
+footer {
+  position: sticky;
+  bottom: 0;
+  left: 0;
+  width: 100%;
+  z-index: 0;
+  margin-top: 200px;
+
+  #allinone {
+    .allinone {
+      h2 {
+        font-size: 15px;
+      }
+
+      a {
+        font-size: 15px;
+        font-weight: 300;
+        text-decoration: none;
+        color: rgb(143, 143, 143);
+      }
+      ul {
+        width: 200px;
+      }
+
+      .academy {
+        ul {
+          list-style: none;
+          margin: -45px 67px;
+          line-height: 35px;
+        }
+      }
+
+      .edufields {
+        ul {
+          list-style: none;
+          margin: -45px 14px;
+          line-height: 35px;
+        }
+      }
+
+      .corporative {
+        margin-top: -45px;
+
+        a {
+          color: black;
+        }
+      }
+    }
+  }
+}
+
+#location {
+  .location {
+    position: relative;
+    margin-top: 100px;
+    height: 85px;
+    background-color: rgb(244, 245, 248);
+    text-align: center;
+
+    .locationtext > strong {
+      color: rgb(143, 143, 143);
+      display: inline;
+    }
+
+    .locationtext {
+      position: relative;
+      top: 30px;
+      font-size: 16px;
+
+      a {
+        text-decoration: none;
+        color: black;
+      }
+    }
+  }
+}
+
+#links {
+  .links {
+    .copyrighttext {
+      position: relative;
+      margin: 58px 60px;
+      width: 400px;
+      font-weight: 300;
+      letter-spacing: 0.6px;
+      color: rgb(143, 143, 143);
+    }
+
+    .logo {
+      position: relative;
+      margin: 46px 100px;
+    }
+
+    .icon {
+      position: relative;
+      margin: 62px 110px;
+      width: 185px;
+      display: flex;
+      justify-content: space-between;
+
+      a {
+        text-decoration: none;
+        color: black;
+
+        &:hover {
+          position: relative;
+          transition: transform 0.5s;
+          transform: translateY(10px);
+        }
+      }
+    }
+  }
+}
+
+/*-----------------------------------------------------------*/
+@media screen and (min-width: 768px) and (max-width: 991px) {
+  #question-form {
+    .question-form {
+      .form-texts {
+        position: absolute;
+        margin-top: 100px;
+        width: 500px;
+
+        .haveanyquestion {
+          margin-top: -110px;
+          margin-left: 50px;
+        }
+        .reasontext {
+          display: none;
+        }
+      }
+      form {
+        width: 815px;
+        margin: 140px -300px;
+
+        .namerow {
+          input {
+            width: 49%;
+          }
+        }
+      }
+
+      .telnumberrow {
+        input {
+          width: 73%;
+        }
+        select {
+          width: 25%;
+        }
+      }
+    }
+  }
+  #allinone {
+    .allinone {
+      .academy {
+        margin-left: -100px;
+      }
+    }
+  }
+  #links {
+    .links {
+      .copyrighttext {
+        margin-left: -50px;
+      }
+    }
+  }
+}
+
+@media screen and (max-width: 768px) {
+  #question-form {
+    .question-form {
+      .form-texts {
+        position: absolute;
+        margin-top: 100px;
+        width: 500px;
+        .haveanyquestion {
+          margin-top: -110px;
+          margin-left: 50px;
+        }
+        .reasontext {
+          display: none;
+        }
+      }
+      form {
+        width: 815px;
+        margin: 140px -300px;
+
+        .namerow {
+          display: block;
+          input {
+            width: 90%;
+          }
+        }
+      }
+
+      .telnumberrow {
+        input {
+          width: 80%;
+        }
+        select {
+          width: 80%;
+        }
+      }
+      .applyrow {
+        margin-top: 15px;
+        display: block;
+
+        button {
+          background-color: #fcba00;
+          color: white;
+          font-size: 20px;
+          font-weight: 900;
+          border: none;
+          height: 54px;
+          width: 90%;
+        }
+      }
+    }
+  }
+  #allinone {
+    .allinone {
+      .academy {
+        margin-left: -100px;
+      }
+    }
+  }
+  #links {
+    .links {
+      .copyrighttext {
+        display: none;
+      }
+      .logo {
+        margin-left: -250px;
+      }
+      .icon {
+        margin-left: -30px;
+      }
+    }
+  }
+}

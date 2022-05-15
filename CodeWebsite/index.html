@@ -4,30 +4,36 @@
 <head>
   <meta charset="UTF-8" />
   <link rel="stylesheet" href="assets/css/styles.css" />
-
   <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.1.3/dist/css/bootstrap.min.css" rel="stylesheet"
     integrity="sha384-1BmE4kWBq78iYhFldvKuhfTAU6auU8tT94WrHftjDbrCEXSU1oBoqyl2QvZ6jIW3" crossorigin="anonymous" />
   <link href="//db.onlinewebfonts.com/c/79927a8d010a79419f5c30e4d87409d5?family=Visby+CF+Medium" rel="stylesheet"
     type="text/css" />
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.1.1/css/all.min.css">
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Roboto+Flex:opsz,wght@8..144,300&display=swap" rel="stylesheet">
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Roboto+Flex:opsz,wght@8..144,300;8..144,700&display=swap"
+    rel="stylesheet">
   <title>Document</title>
 </head>
 
 <body>
-  <footer>
+  <main>
     <section id="question-form">
-
       <div class="question-form">
         <div class="container">
           <div class="row">
             <div class="col-4 ">
-              <div class="form-words">
+              <div class="form-texts">
                 <div class="haveanyquestion">
                   <h2>sualın var?</h2>
                 </div>
                 <div class="meet">
                   <h2>gəl görüşək!</h2>
                 </div>
-                <div class="texts">
+                <div class="reasontext">
                   <p>
                     Yüz dəfə eşitməkdənsə, bir dəfə görmək yaxşıdır. Bizimlə görüş
                     təyin et, dərslərimiz, müəllimlərimiz və tədris prosesimizlə
@@ -39,8 +45,8 @@
             <div class="col-8 ">
               <form>
                 <div class="namerow">
-                    <input type="text" id="name" placeholder="Ad" name="fname" />
-                    <input type="text" id="surname" placeholder="Soyad" name="surname" /><br /><br />
+                  <input type="text" id="name" placeholder="Ad" name="fname" />
+                  <input type="text" id="surname" placeholder="Soyad" name="surname" />
                 </div>
                 <div class="telnumberrow">
                   <select>
@@ -53,9 +59,9 @@
                     <option value="077">077</option>
                     <option value="099">099</option>
                   </select>
-                  <input type="text" id="name" placeholder="XXX-XX-XX" name="fname" /><br /><br />
+                  <input type="text" id="name" placeholder="XXX-XX-XX" name="fname" />
                 </div>
-                <div class="field">
+                <div class="fieldrow">
                   <select>
                     <option value="Şəbəkə Administratorluğu">Şəbəkə Administratorluğu</option>
                     <option value="Sistem və Bulud texnologiyaları">Sistem və Bulud texnologiyaları</option>
@@ -67,8 +73,8 @@
                     <option value="Digital Marketing Professional - DMI Pro">Digital Marketing Professional - DMI Pro
                     </option>
                     <option value="Digital Memarlıq və 3D">Digital Memarlıq və 3D</option>
-                  </select><br /><br />
-                  <div class="apply">
+                  </select>
+                  <div class="applyrow">
                     <button>Müraciət et</button>
                   </div>
                 </div>
@@ -79,51 +85,98 @@
       </div>
       </div>
     </section>
-    <section id="aboutacademy">
-      <div class="aboutacademy">
+  </main>
+  <footer>
+    <section id="allinone">
+      <div class="allinone">
         <div class="container">
           <div class="row">
             <div class="col-4">
-              <div class="about">
-                <h2>Akademiya</h2>
-                <a href="#">Haqqimizda</a><br>
-                <a href="#">akademik partnyorlar</a><br>
-                <a href="#">Aktiv Vakansiyalar</a><br>
-                <a href="#">Karyera ve talant merkezi</a><br>
-                <a href="#">Tehsil Modeli</a><br>
+              <div class="academy">
+                <ul>
+                  <li>
+                    <h2>Akademiya</h2>
+                  </li>
+                  <li><a href="#">Haqqımızda</a></li>
+                  <li><a href="#">Akademik partnyorlar</a></li>
+                  <li><a href="#">Aktiv vakansiyalar</a></li>
+                  <li><a href="#">Karyera və Talant Mərkəzi</a></li>
+                  <li><a href="#">Təhsil modeli</a></li>
+                  <li><a href="#">Məzunlarımız</a></li>
+                </ul>
               </div>
             </div>
             <div class="col-4">
-              <div class="about">
-                <h2>Akademiya</h2>
-                <a href="#">Haqqimizda</a><br>
-                <a href="#">Haqqimizda</a><br>
-                <a href="#">Haqqimizda</a><br>
-                <a href="#">Haqqimizda</a><br>
-                <a href="#">Haqqimizda</a><br>
+              <div class="edufields">
+                <ul>
+                  <li>
+                    <h2>Tədris sahələri</h2>
+                  </li>
+                  <li><a href="#">Digital Marketinq</a></li>
+                  <li><a href="#">Proqramlaşdırma</a></li>
+                  <li><a href="#">Dizayn</a></li>
+                  <li><a href="#">Sistem və Şəbəkə</a></li>
+                </ul>
               </div>
             </div>
             <div class="col-4">
-              <div class="about">
-                <h2>Akademiya</h2>
-            </div>
-
+              <div class="corporative">
+                  <a href=""><h2>Korporativ</h2></a>
+              </div>
             </div>
           </div>
         </div>
-
       </div>
     </section>
     <section id="location">
       <div class="location">
         <div class="locationtext">
-          <p>awdawdawdawdawdawd</p>
+          <p>Nizami küçəsi 203B, AF Business House, 2-ci mərtəbə | Tel <strong><a href="tel:+994 12 310 0113">+994 12
+                310 0113</a></strong> | Mobil/Whatsapp <strong><a href="tel:+994 50 444 2633">+994 50 444
+                2633</a></strong>
+          </p>
         </div>
       </div>
     </section>
-    
+    <section id="links">
+      <div class="links">
+        <div class="container">
+          <div class="row">
+            <div class="col-4">
+              <div class="copyrighttext">
+                <p style="font-size:12px;">© 2022 Code Academy. Bütün hüquqlar qorunur</p>
+              </div>
+            </div>
+            <div class="col-4">
+              <div class="logo">
+                <a href="#">
+                  <img src="/assets/images/logo.png" alt="this is logo">
+                </a>
+              </div>
+            </div>
+            <div class="col-4">
+              <div class="icon">
+                <a href="https://www.facebook.com/code.edu.az/" target="_blank">
+                  <i class="fa-brands fa-facebook"></i>
+                </a>
+                <a href="https://www.instagram.com/code.edu.az/" target="_blank">
+                  <i class="fa-brands fa-instagram"></i>
+                </a>
+                <a href="https://www.linkedin.com/school/code.edu.az/" target="_blank">
+                  <i class="fa-brands fa-linkedin"></i>
+                </a>
+                <a href="https://twitter.com/Code_edu_az" target="_blank">
+                  <i class="fa-brands fa-twitter"></i>
+                </a>
+                <a href="https://www.youtube.com/channel/UCOdPpOk5HsQcve5PHYSP5IQ" target="_blank">
+                  <i class="fa-brands fa-youtube"></i>
+                </a>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </section>
   </footer>
-  
 </body>
-
 </html>

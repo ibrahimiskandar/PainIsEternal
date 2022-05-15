@@ -3,108 +3,346 @@ body {
   padding: 0;
   -webkit-box-sizing: border-box;
           box-sizing: border-box;
-  font-family: "visby cf", Sans-serif;
+  font-family: "Roboto Flex", sans-serif;
   color: #4a4a4a;
 }
 
-.question-form {
+main {
+  position: relative;
+  z-index: 1;
+}
+
+#question-form .question-form {
   background-color: #f4f5f8;
   height: 497px;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: horizontal;
+  -webkit-box-direction: normal;
+      -ms-flex-flow: row wrap;
+          flex-flow: row wrap;
 }
 
-.question-form form {
-  width: 400px;
-  top: 0;
-  padding: 12px;
-}
-
-.question-form form input {
-  height: 50px;
-  border: 0;
-}
-
-.question-form form input:focus {
-  border: 10px solid #f4f5f8;
-}
-
-.question-form form select {
-  width: 100px;
-  color: black;
-  border: none;
-  height: 50px;
-}
-
-.question-form form button {
-  background-color: #fcba00;
-  color: white;
-  font-family: "visby cf", Sans-serif;
-  font-size: 30px;
-  border: none;
-  height: 50px;
-  width: 100%;
-}
-
-.question-form form .field select {
-  width: 100%;
-}
-
-.question-form .form-words {
-  padding-top: 100px;
+#question-form .question-form .form-texts {
+  margin-top: 100px;
   width: 500px;
 }
 
-.question-form .form-words .haveanyquestion {
-  font-family: "visby cf", Sans-serif;
-  font-size: 50px;
+#question-form .question-form .form-texts .haveanyquestion h2 {
+  color: #4a4a4a;
+  font-size: 55px;
   font-weight: 300;
   text-transform: lowercase;
-  line-height: 1.04em;
   letter-spacing: -1.5px;
   margin-left: -100px;
 }
 
-.question-form .form-words .meet {
-  font-family: "visby cf", Sans-serif;
-  font-size: 30px;
+#question-form .question-form .form-texts .meet {
+  margin: -30px -50px;
+}
+
+#question-form .question-form .form-texts .meet h2 {
+  color: #4a4a4a;
+  font-size: 55px;
   font-weight: 900;
   text-transform: lowercase;
-  line-height: 1.04em;
-  letter-spacing: -3.5px;
+  letter-spacing: -1.5px;
 }
 
-.question-form .form-words .text {
-  width: 440px;
+#question-form .question-form .form-texts .reasontext {
+  position: absolute;
+  width: 25%;
+  max-width: 470px;
+  margin-top: 70px;
+  margin-left: -50px;
+  font-size: 15px;
+  opacity: 0.6;
 }
 
-.question-form .form-words .telnumberrow input {
-  width: 10px;
+#question-form .question-form form {
+  width: 415px;
+  margin: 110px 65px;
 }
 
-#aboutacademy ul {
-  list-style: none;
-  display: inline;
+#question-form .question-form form select {
+  color: black;
+  opacity: 0.7;
+  border: 20px solid white;
+  height: 59px;
+  font-size: 14px;
 }
 
-#aboutacademy h2 {
-  font-size: 17px;
-  position: relative;
+#question-form .question-form form select:focus {
+  outline: none;
+}
+
+#question-form .question-form form input {
+  border: 20px solid white;
+  height: 60px;
+}
+
+#question-form .question-form form input:focus {
+  outline: none;
+}
+
+#question-form .question-form form .namerow {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: justify;
+      -ms-flex-pack: justify;
+          justify-content: space-between;
+}
+
+#question-form .question-form form .namerow input {
+  width: 48%;
+}
+
+#question-form .question-form .telnumberrow {
+  margin-top: 15px;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: justify;
+      -ms-flex-pack: justify;
+          justify-content: space-between;
+}
+
+#question-form .question-form .telnumberrow input {
+  width: 72%;
+}
+
+#question-form .question-form .telnumberrow select {
+  width: 24%;
+}
+
+#question-form .question-form .fieldrow {
+  margin-top: 15px;
+}
+
+#question-form .question-form .fieldrow select {
+  width: 100%;
+}
+
+#question-form .question-form .applyrow {
+  margin-top: 15px;
+  display: block;
+}
+
+#question-form .question-form .applyrow button {
+  background-color: #fcba00;
+  color: white;
+  font-size: 20px;
+  font-weight: 900;
+  border: none;
+  height: 54px;
+  width: 100%;
+}
+
+#question-form .question-form .applyrow button:hover {
+  -webkit-transition: 0.5s;
+  transition: 0.5s;
+  background: #f09c04;
+}
+
+footer {
+  position: -webkit-sticky;
+  position: sticky;
+  bottom: 0;
+  left: 0;
+  width: 100%;
+  z-index: 0;
   margin-top: 200px;
 }
 
-#aboutacademy a {
-  font-family: "visby cf", Sans-serif;
-  font-size: 10x;
+footer #allinone .allinone h2 {
+  font-size: 15px;
+}
+
+footer #allinone .allinone a {
+  font-size: 15px;
   font-weight: 300;
-  text-transform: lowercase;
   text-decoration: none;
   color: #8f8f8f;
 }
 
-#location {
-  text-align: center;
+footer #allinone .allinone ul {
+  width: 200px;
+}
+
+footer #allinone .allinone .academy ul {
+  list-style: none;
+  margin: -45px 67px;
+  line-height: 35px;
+}
+
+footer #allinone .allinone .edufields ul {
+  list-style: none;
+  margin: -45px 14px;
+  line-height: 35px;
+}
+
+footer #allinone .allinone .corporative {
+  margin-top: -45px;
+}
+
+footer #allinone .allinone .corporative a {
+  color: black;
 }
 
 #location .location {
-  height: 100px;
+  position: relative;
+  margin-top: 100px;
+  height: 85px;
   background-color: #f4f5f8;
+  text-align: center;
+}
+
+#location .location .locationtext > strong {
+  color: #8f8f8f;
+  display: inline;
+}
+
+#location .location .locationtext {
+  position: relative;
+  top: 30px;
+  font-size: 16px;
+}
+
+#location .location .locationtext a {
+  text-decoration: none;
+  color: black;
+}
+
+#links .links .copyrighttext {
+  position: relative;
+  margin: 58px 60px;
+  width: 400px;
+  font-weight: 300;
+  letter-spacing: 0.6px;
+  color: #8f8f8f;
+}
+
+#links .links .logo {
+  position: relative;
+  margin: 46px 100px;
+}
+
+#links .links .icon {
+  position: relative;
+  margin: 62px 110px;
+  width: 185px;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: justify;
+      -ms-flex-pack: justify;
+          justify-content: space-between;
+}
+
+#links .links .icon a {
+  text-decoration: none;
+  color: black;
+}
+
+#links .links .icon a:hover {
+  position: relative;
+  -webkit-transition: -webkit-transform 0.5s;
+  transition: -webkit-transform 0.5s;
+  transition: transform 0.5s;
+  transition: transform 0.5s, -webkit-transform 0.5s;
+  -webkit-transform: translateY(10px);
+          transform: translateY(10px);
+}
+
+/*-----------------------------------------------------------*/
+@media screen and (min-width: 768px) and (max-width: 991px) {
+  #question-form .question-form .form-texts {
+    position: absolute;
+    margin-top: 100px;
+    width: 500px;
+  }
+  #question-form .question-form .form-texts .haveanyquestion {
+    margin-top: -110px;
+    margin-left: 50px;
+  }
+  #question-form .question-form .form-texts .reasontext {
+    display: none;
+  }
+  #question-form .question-form form {
+    width: 815px;
+    margin: 140px -300px;
+  }
+  #question-form .question-form form .namerow input {
+    width: 49%;
+  }
+  #question-form .question-form .telnumberrow input {
+    width: 73%;
+  }
+  #question-form .question-form .telnumberrow select {
+    width: 25%;
+  }
+  #allinone .allinone .academy {
+    margin-left: -100px;
+  }
+  #links .links .copyrighttext {
+    margin-left: -50px;
+  }
+}
+
+@media screen and (max-width: 768px) {
+  #question-form .question-form .form-texts {
+    position: absolute;
+    margin-top: 100px;
+    width: 500px;
+  }
+  #question-form .question-form .form-texts .haveanyquestion {
+    margin-top: -110px;
+    margin-left: 50px;
+  }
+  #question-form .question-form .form-texts .reasontext {
+    display: none;
+  }
+  #question-form .question-form form {
+    width: 815px;
+    margin: 140px -300px;
+  }
+  #question-form .question-form form .namerow {
+    display: block;
+  }
+  #question-form .question-form form .namerow input {
+    width: 90%;
+  }
+  #question-form .question-form .telnumberrow input {
+    width: 80%;
+  }
+  #question-form .question-form .telnumberrow select {
+    width: 80%;
+  }
+  #question-form .question-form .applyrow {
+    margin-top: 15px;
+    display: block;
+  }
+  #question-form .question-form .applyrow button {
+    background-color: #fcba00;
+    color: white;
+    font-size: 20px;
+    font-weight: 900;
+    border: none;
+    height: 54px;
+    width: 90%;
+  }
+  #allinone .allinone .academy {
+    margin-left: -100px;
+  }
+  #links .links .copyrighttext {
+    display: none;
+  }
+  #links .links .logo {
+    margin-left: -250px;
+  }
+  #links .links .icon {
+    margin-left: -30px;
+  }
 }
